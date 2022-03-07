@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/USERNAME/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -98,7 +98,6 @@ export PIP_RESPECT_VIRTUALENV=true
 
 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-export JAVA_HOME=`/usr/libexec/java_home`
 
 for file in ~/.{aliases,functions}; do
     [ -r "$file" ] && [ -f "$file" ] && source "$file";
